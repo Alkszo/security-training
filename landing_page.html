@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,68 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cybersecurity Awareness Training</title>
     <style>
-        /* General body styling */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-        }
-
-        /* Centered container for content */
-        .container {
-            width: 100%;
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
             text-align: center;
         }
-
-        /* Headline styling */
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
         h1 {
-            color: #333333;
-            font-size: 24px;
-            margin-bottom: 20px;
+            color: #2c3e50;
         }
-
-        /* Paragraph styling */
-        p {
-            color: #666666;
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 20px;
+        a {
+            color: #3498db;
+            text-decoration: none;
         }
-
-        /* Button styling */
+        a:hover {
+            text-decoration: underline;
+        }
         .button {
             display: inline-block;
-            padding: 12px 24px;
-            background-color: #5C2D91;
-            color: #ffffff;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
             text-decoration: none;
-            font-weight: bold;
             border-radius: 5px;
             font-size: 16px;
         }
-
-        /* Hover effect for the button */
         .button:hover {
-            background-color: #4a2376;
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Cybersecurity Awareness Training</h1>
-        <p>
-            <b>You've been phished!</b> The submittion form you clicked on was simulating one posted by a malicious actor in order to obtain your credentials.
-            Below you will find materials that will help you identify and avoid future phishing attacks.
-            Thank you for taking the time to improve your cybersecurity knowledge!
-        </p>
-        
+        <p>You've been phished! The submission form you clicked on was simulating one posted by a malicious actor in order to obtain your credentials.</p>
+        <p>Below you will find materials that will help you identify and avoid future phishing attacks. Thank you for taking the time to improve your cybersecurity knowledge!</p>
+        <a class="button" href="https://gamma.app/docs/Improving-Employee-Cybersecurity-Awareness-h423pbl5jszr7kv" target="_blank">View Training Materials</a>
+        <br>
+        <a class="button" href="https://kahoot.it/" target="_blank">Take the Kahoot Quiz</a>
     </div>
 </body>
 </html>
